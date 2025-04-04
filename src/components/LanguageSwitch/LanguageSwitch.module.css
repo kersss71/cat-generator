@@ -1,0 +1,25 @@
+.languageSwitch {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.languageButton {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.languageButton:hover {
+  background: #f0f0f0;
+}
+
+.active {
+  background: #e0e0e0;
+  border-color: #999;
+}
